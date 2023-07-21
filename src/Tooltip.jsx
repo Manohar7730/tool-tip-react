@@ -5,12 +5,12 @@ const Tooltip = ({ text, position, children }) => {
 
   return (
     <div
-      className="tooltip-container"
+      className={`tooltip-container tooltip-${position}`}
       onMouseEnter={() => setShowTooltip(true)}
       onMouseLeave={() => setShowTooltip(false)}
     >
       {children}
-      {showTooltip && <div className={`${position}`}>{text}</div>}
+      {showTooltip && <div className={`tooltip-text`}>{text}</div>}
     </div>
   );
 };
