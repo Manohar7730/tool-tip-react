@@ -32,6 +32,7 @@ button {
   color: antiquewhite;
   border-radius: 25px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .tooltip-container {
@@ -114,4 +115,9 @@ button {
   left: 0px;
   top: 50%;
   transform: translateX(-50%) rotate(45deg);
+}
+
+button:focus {
+  background-color: greenyellow;
+  color: black;
 }
