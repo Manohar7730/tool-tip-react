@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  color: #f2f2f2;
+  background-color: lightslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 30px;
+  font-size: 15px;
+  width: 100px;
+}
+
+.tooltip-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+  line-height: 40px;
+  font-size: 14px;
+}
